@@ -17,14 +17,432 @@
   <meta property="og:image" content="" />
   <meta property="og:description" content="" />
 
-  <!-- AMP Analytics --><script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-
-  </head>
+    
+  <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+  
+</head>
 
 <body>
-  <!-- Google Tag Manager -->
-<amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-PC4FS9X&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+  <amp-bind-macro id="replaceSpace" arguments="str" expression="str.split('-').join('')"></amp-bind-macro>
+  <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-PC4FS9X" data-credentials="include">
+  </amp-analytics>
 
+
+
+
+  <amp-analytics type="gtag" data-credentials="include">
+    <script type="application/json">
+    {
+      "vars": {
+        "gtag_id": "GTM-PC4FS9X",
+        "config": {
+          "GTM-PC4FS9X": {
+            "groups": "default"
+          }
+        }
+      },
+      "triggers": {
+        "anchorClicks1": {
+          "selector": "#celularLinkFixo",
+          "request": "event",
+          "on": "click",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:botoes",
+            "event_label": "celular"
+          }
+        },
+    
+        "anchorClicks2": {
+          "on": "click",
+          "selector": "#casaLinkFixo",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:botoes",
+            "event_label": "casa"
+          }
+        },
+        "anchorClicks3": {
+          "on": "click",
+          "selector": "#navbarCelular",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:botoes",
+            "event_label": "celular"
+          }
+        },
+        "anchorClicks4": {
+          "on": "click",
+          "selector": "#navbarPos",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:pos",
+            "event_action": "click:botoes",
+            "event_label": "pos"
+          }
+        },
+        "anchorClicks5": {
+          "on": "click",
+          "selector": "#navbarControle",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:controle",
+            "event_action": "click:botoes",
+            "event_label": "controle"
+          }
+        },
+        "anchorClicks6": {
+          "on": "click",
+          "selector": "#navbarSmartphones",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:smartphones",
+            "event_action": "click:botoes",
+            "event_label": "smartphones"
+          }
+        },
+        "anchorClicks7": {
+          "on": "click",
+          "selector": "#navbarCasa",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:botoes",
+            "event_label": "casa"
+          }
+        },
+        "anchorClicks8": {
+          "on": "click",
+          "selector": "#navbarCombo",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:combos",
+            "event_action": "click:botoes",
+            "event_label": "combos"
+          }
+        },
+        "anchorClicks9": {
+          "on": "click",
+          "selector": "#navbarTv",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:tv",
+            "event_action": "click:botoes",
+            "event_label": "tv"
+          }
+        },
+        "anchorClicks10": {
+          "on": "click",
+          "selector": "#navbarBandaLarga",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:banda-larga",
+            "event_action": "click:botoes",
+            "event_label": "banda-larga"
+          }
+        },
+        "anchorClicks11": {
+          "on": "click",
+          "selector": "#navbarPrezao",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:prezao",
+            "event_action": "click:botoes",
+            "event_label": "prezao"
+          }
+        },
+        "anchorClicks12": {
+          "on": "click",
+          "selector": "#modalNavbarCombos",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:menu-contrate",
+            "event_label": "combos"
+          }
+        },
+        "anchorClicks13": {
+          "on": "click",
+          "selector": "#modalNavbarPlanos",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:menu-contrate",
+            "event_label": "plano-para-celular"
+          }
+        },
+        "anchorClicks14": {
+          "on": "click",
+          "selector": "#modalNavbarInternet",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:menu-contrate",
+            "event_label": "internet"
+          }
+        },
+        "anchorClicks15": {
+          "on": "click",
+          "selector": "#modalNavbarHdTv",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:menu-contrate",
+            "event_label": "hd-tv"
+          }
+        },
+        "anchorClicks16": {
+          "on": "click",
+          "selector": "#modalNavbarSmartPhones",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:menu-contrate",
+            "event_label": "smartphones"
+          }
+        },
+        "anchorClicks17": {
+          "on": "click",
+          "selector": "#modalNavbarRecarga",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:menu-contrate",
+            "event_label": "recarga"
+          }
+        },
+        "anchorClicks18": {
+          "on": "click",
+          "selector": "#headerCardUm",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:contrate",
+            "event_label": "15gb-64-para-seu-celular"
+          }
+        },
+        "anchorClicks19": {
+          "on": "click",
+          "selector": "#headerCardDois",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:header",
+            "event_action": "click:contrate",
+            "event_label": "240mb-99-para-sua-casa"
+          }
+        },
+        "anchorClicks20": {
+          "on": "click",
+          "selector": "#cardClaroPos",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:claro-pos",
+            "event_action": "click:contrate",
+            "event_label": "50gb-189"
+          }
+        },
+        "anchorClicks21": {
+          "on": "click",
+          "selector": "#cardClaroControle",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:claro-controle",
+            "event_action": "click:contrate",
+            "event_label": "15gb-74"
+          }
+        },
+        "anchorClicks22": {
+          "on": "click",
+          "selector": "#cardSmartPhones",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:smartphones",
+            "event_action": "click:contrate",
+            "event_label": "ofertas-exclusivas"
+          }
+        },
+        "anchorClicks23": {
+          "on": "click",
+          "selector": "#cardCombosMonteSeu",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:combos",
+            "event_action": "click:contrate",
+            "event_label": "monte-seu-combo"
+          }
+        },
+        "anchorClicks24": {
+          "on": "click",
+          "selector": "#cardCombosMaisEconomico",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:combos",
+            "event_action": "click:contrate",
+            "event_label": "240mb-wifi-plus-tv-facil-hd-celular-ligacao-ilimitada-214"
+          }
+        },
+        "anchorClicks25": {
+          "on": "click",
+          "selector": "#cardCombosMaisVendido",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:combos",
+            "event_action": "click:contrate",
+            "event_label": "240mb-wifi-plus-tv-mix-hd-celular-ligacao-ilimitada-259"
+          }
+        },
+        "anchorClicks26": {
+          "on": "click",
+          "selector": "#cardCombosMaisExperiencia",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:combos",
+            "event_action": "click:contrate",
+            "event_label": "240mb-wifi-plus-tv-top-hd-celular-ligacao-ilimitada-339"
+          }
+        },
+        "anchorClicks27": {
+          "on": "click",
+          "selector": "#cardBandaLarga",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:banda-larga",
+            "event_action": "click:contrate",
+            "event_label": "240mb-wifi-plus-99"
+          }
+        },
+        "anchorClicks28": {
+          "on": "click",
+          "selector": "#cardTv",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:tv",
+            "event_action": "click:contrate",
+            "event_label": "net-tv-69"
+          }
+        },
+        "anchorClicks29": {
+          "on": "click",
+          "selector": "#cardPrezao",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:claro-prezao",
+            "event_action": "click:contrate",
+            "event_label": "6gb+whatsapp-ligacao-e-descomplica-30-dias"
+          }
+        },
+        "anchorClicks30": {
+          "on": "click",
+          "selector": "#facebookSocial",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:social",
+            "event_action": "click:contrate",
+            "event_label": "facebook"
+          }
+        },
+        "anchorClicks31": {
+          "on": "click",
+          "selector": "#twitterSocial",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:social",
+            "event_action": "click:contrate",
+            "event_label": "twitter"
+          }
+        },
+        "anchorClicks32": {
+          "on": "click",
+          "selector": "#youtubeSocial",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:social",
+            "event_action": "click:contrate",
+            "event_label": "youtube"
+          }
+        },
+        "anchorClicks33": {
+          "on": "click",
+          "selector": "#linkedinSocial",
+          "request": "event",
+          "vars": {
+            "event_name": "claro",
+            "method": "Google",
+            "event_category": "lp-claro-pura:social",
+            "event_action": "click:contrate",
+            "event_label": "linkedin"
+          }
+        }
+      }
+    }    
+</script>
+  </amp-analytics>
 
 
 </body>
